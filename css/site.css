@@ -1,0 +1,79 @@
+body {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    background-image: url('../img/background.jpg');
+}
+
+.logo {
+    width: 300px;
+}
+
+.game-selector {
+    border: none;
+    width: auto;
+}
+
+.cabal-one-selector {
+    border: none;
+    cursor: pointer;
+}
+
+.elatus-wow-selector {
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .game-selector {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-selector {
+        margin-top: 20px;
+    }
+}
+
+@media (pointer: fine) {
+    .cabal-one-selector {
+        background-image: url('../img/cabal-one.png');
+        background-size: cover;
+    }
+
+    .cabal-one-selector:hover {
+        background-image: url('../img/cabal-one-hover.png');
+    }
+
+    .elatus-wow-selector {
+        background-image: url('../img/elatus-wow.png');
+        background-size: cover;
+    }
+
+    .elatus-wow-selector:hover {
+        background-image: url('../img/elatus-wow-hover.png');
+    }
+}
+
+@media (pointer: none) {
+    .cabal-one-selector {
+        background-image: url('../img/cabal-one-hover.png');
+        background-size: cover;
+    }
+
+    .elatus-wow-selector {
+        background-image: url('../img/elatus-wow-hover.png');
+        background-size: cover;
+    }
+}
+
+@media (pointer: coarse) {
+    .cabal-one-selector {
+        background-image: url('../img/cabal-one-hover.png');
+        background-size: cover;
+    }
+
+    .elatus-wow-selector {
+        background-image: url('../img/elatus-wow-hover.png');
+        background-size: cover;
+    }
+}

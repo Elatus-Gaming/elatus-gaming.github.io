@@ -1,2 +1,2 @@
-# elatus-gaming.github.io
-Elatus Gaming static website code repository
+# Elatus Gaming website
+Elatus Gaming static website code repository.

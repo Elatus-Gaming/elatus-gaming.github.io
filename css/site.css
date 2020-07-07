@@ -28,9 +28,31 @@ body {
     }
 }
 
+@media screen and (min-width: 1600px) {
+    .game-selector {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .game-selector {
+        max-width: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .game-selector {
         margin-top: 20px;
+    }
+
+    .cabal-one-selector {
+        background-image: url('../img/cabal-one-hover.png');
+        background-size: cover;
+    }
+
+    .elatus-wow-selector {
+        background-image: url('../img/elatus-wow-hover.png');
+        background-size: cover;
     }
 }
 
